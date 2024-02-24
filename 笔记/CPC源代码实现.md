@@ -16,7 +16,7 @@
 github:```https://github.com/jefflai108/Contrastive-Predictive-Coding-PyTorch```
 
 
-
+## model.py
 
 ```python
 
@@ -284,4 +284,9 @@ def predict(self, x, hidden):
 ```
 
 * predict方法的流程与forward类似，不过这里返回的是经过GRU处理之后的所有输出和最新的隐藏状态。这方便用于在验证阶段或者模型部署的时候进行序列预测
+
+
+
+
+
 
